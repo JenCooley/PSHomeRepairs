@@ -1,0 +1,356 @@
+/*Colors
+green = #A8C727
+yellow = #FBC044
+blue = #13888A
+light grey = #EBE7DE, #F8F8F8
+grey = #6E7E7E
+black = #2C2C2C
+
+*/
+
+/*Global*/
+
+body {
+	font-family: 'Montserrat', sans-serif;
+}
+
+hr {
+	width: 70%;
+	border: 0; 
+	height: 1px; 
+	background: #DD8C4F; 
+}
+
+.btn-default{
+	border-color: #DD8C4F;
+	color: #DD8C4F;
+	padding: 1em;
+	
+}
+
+.btn-default:focus, .btn-default:hover{
+	color: #fff;
+	background-color: #DD8C4F;
+}
+
+
+
+/*Navigation*/
+
+.navbar-default {
+	border: none;
+	background: none;
+	color: #6E7E7E;
+	margin-bottom: 0;
+	height: 85px;
+
+}
+
+.navbar-default .navbar-nav > li > a {
+	color: #fff;
+	font-size: 1.5em;
+	font-family: Arial;
+}
+
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus{
+	color:  #fff;
+	text-decoration: underline;
+	
+}
+
+
+.navbar-toggle {
+	margin: 25px 15px 10px;
+	padding: 15px;
+}
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    border: none;
+	font-size: 1em;
+	padding: none;
+}
+
+.logo {
+	height: 85px;
+	margin: 0;
+	margin-top: -15px;
+
+}
+
+.navbar-right {
+	margin: 18px 1% 15px 0;
+}
+
+/*Jumbotron*/
+
+.jumbotron {
+	text-align: center;
+	height: 600px;
+	top: 0;
+	padding-top: 10px;
+	background-image: url("../img/heroimage.jpg");
+    background-size: cover;
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+	margin-bottom: 0;
+	background-color: black;
+	opacity: 1;
+
+}
+
+.headline {
+	margin-top: 8%;
+	color: #FFF;
+
+}
+
+.headline h1 {
+	letter-spacing: 1px;
+	font-weight: bold;
+	margin-top: -10px;
+	text-shadow: 1px 1px 1px #000;
+}
+	
+}	
+
+.headline h4 {
+	font-weight: 400;
+}
+
+.eye-catcher {
+	margin-top: 100px;
+}
+
+.call-me {
+	background-color: #DD8C4F;
+	border-color: #B56B3D;
+	margin-top: 20px;
+}
+
+.call-me:hover{
+	background-color: white;
+	color: #DD8C4F
+}
+
+/*Services********************************/
+
+.marketing {
+	margin-top: 75px;
+	margin-bottom: 75px;
+}
+
+.marketing-blurb {
+	text-align: center;
+	padding: 1em 2.5em;
+} 
+
+.consult {
+	margin-top: 20px;
+}
+
+.fa-5x{
+	color: white;
+	background-color: #DD8C4F;
+	padding: 48px;
+	border-radius: 50em;
+}
+
+/*Portfolio********************************/
+
+.portfolio {
+	padding-bottom: 2em;
+	margin-top: 50px;
+	
+	}
+
+.page-header {
+	border: none;
+	text-align: center;
+	font-weight: 400;
+	font-size: 3em;
+}
+
+.see-more {
+	text-align: center;
+}
+
+.thumbnail {
+	border: none;
+	text-align: center;
+	margin-bottom: 50px;
+}
+
+
+/* Carousel **********************************/
+
+.carousel-section {
+	background-color: #DD8C4F;
+	padding-top: 4em;
+	padding-bottom: 2em;
+	color: white;
+	
+}
+
+.carousel-section small {
+	color: white;
+}
+
+
+#quote-carousel {
+    padding: 0 10px 30px 10px;
+    margin-top: 30px;
+    /* Control buttons  */
+    /* Previous button  */
+    /* Next button  */
+    /* Changes the position of the indicators */
+    /* Changes the color of the indicators */
+}
+#quote-carousel .carousel-control {
+    background: none;
+    color: #fff;
+    font-size: 2.3em;
+    text-shadow: none;
+    margin-top: 30px;
+}
+#quote-carousel .carousel-control.left {
+    left: -60px;
+}
+#quote-carousel .carousel-control.right {
+    right: -60px;
+}
+#quote-carousel .carousel-indicators {
+    right: 50%;
+    top: auto;
+    bottom: 0px;
+    margin-right: -19px;
+}
+#quote-carousel .carousel-indicators li {
+    width: 20px;
+    height: 20px;
+    margin: 5px;
+    cursor: pointer;
+	border-color: #fff;
+    border-radius: 50px;
+    opacity: 0.4;
+    overflow: hidden;
+    transition: all 0.4s;
+}
+#quote-carousel .carousel-indicators .active {
+	background-color: #fff;
+    border-radius: 100px;
+    opacity: 1;
+    overflow: hidden;
+}
+.carousel-inner {
+    min-height: 200px;
+}
+.item blockquote {
+    border-left: none;
+    margin: 0;
+}
+.item blockquote p:before {
+    content: "\f10d";
+    font-family: 'Fontawesome';
+    float: left;
+    margin-right: 10px;
+	}
+	
+	
+	
+
+/*Footer*/
+
+footer {
+	padding-top: 2em;
+	background: #fff;
+	text-align: center;
+	color: #333;
+}
+
+footer h3 {
+	font-size: 2em;
+	margin-bottom: 20px;
+}
+
+footer .footer-col {
+    margin-bottom: 10px;
+}
+
+/*.footer-button {
+	background-color: #6E7E7E;
+	border-color: #fff;
+	color: #fff;
+}
+
+.footer-button:hover, .footer-button:focus {
+	background-color: #fff;
+	border: none;
+	color: #6E7E7E
+}*/
+
+address, .about-me{
+	font-size: 1.25em;
+}
+
+.copyright {
+	padding: 20px;
+}
+
+.btn-outline {
+    margin-top: 5px;
+    border: solid 2px #333;
+    font-size: 20px;
+    color: #333;
+    background: 0 0;
+    transition: all .3s ease-in-out;
+}
+
+.btn-outline:hover,
+.btn-outline:focus,
+.btn-outline:active,
+.btn-outline.active {
+    border: solid 2px #6E7E7E;
+    color: #6E7E7E;
+    background: #fff;
+}
+
+.btn-social {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    border: 2px solid #333;
+    border-radius: 100%;
+    text-align: center;
+    font-size: 20px;
+    line-height: 45px;
+}
+
+.btn:focus,
+.btn:active,
+.btn.active {
+    outline: 0;
+}
+
+footer .btn {
+	margin-top: 2em;
+}
+
+
+/*MEDIA QUERIES**************************************************************************/
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: @screen-sm-min) { 
+
+ }
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+	.accordion {
+		width: 80%;
+		margin: 0 auto;
+	}
+ }
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: @screen-lg-min) { ... }
